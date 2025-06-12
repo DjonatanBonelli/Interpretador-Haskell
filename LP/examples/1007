@@ -1,0 +1,5 @@
+let A = 5 in 
+    let B = 6 in
+        let C = 7 in
+            let D = 8 in
+                (A*B)-(C*D)

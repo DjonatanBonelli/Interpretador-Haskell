@@ -1,0 +1,10 @@
+(\x: Number -> 
+    let A = [0, 25] in 
+        let B = [25, 50] in
+            let C = [50, 75] in
+                let D = [75, 100] in
+                    if (x < head (tail (A))) or (x == head (tail (A))) then A 
+                    else if (x < head (tail (B))) or (x == head (tail (B))) then B
+                    else if (x < head (tail (C))) or (x == head (tail (C))) then C
+                    else D
+) 75
