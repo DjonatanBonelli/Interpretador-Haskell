@@ -18,10 +18,10 @@ Este projeto é um pequeno interpretador de uma linguagem funcional escrito em H
 ## Estrutura do Projeto
 
 - **Lexer.hs**: Define a estrutura da linguagem, incluindo expressões e tipos.
-- **Parser.hs** *(opcional)*: Caso exista, define regras de parsing.
+- **Parser.hs**: Define regras de parsing, gerado pelo Parser.y.
 - **Eval.hs**: Define as regras de avaliação (redução) das expressões.
 - **TypeChecker.hs**: Sistema de tipos que verifica se as expressões são bem-tipadas.
-- **Main.hs** *(opcional)*: Ponto de entrada para execução, se desejado.
+- **Main.hs**: Ponto de entrada que chama cada etapa do interpretador.
 
 ## Testes
 
